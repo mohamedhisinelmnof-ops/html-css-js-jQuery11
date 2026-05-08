@@ -29,7 +29,7 @@ function nextSequence (){
 function playSound (name){
 name = userChosenColor;
 
-var sound = new Audio (`./sounds/${name}.mp3`);
+var sound = new Audio (`./${name}.mp3`);
 sound.play()
 };
 playSound();

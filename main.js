@@ -71,7 +71,7 @@ setTimeout(function(){
 else{
     console.log("Wrong");
     
-    var sound = new Audio("./sounds/wrong.mp3");
+    var sound = new Audio("./wrong.mp3");
     sound.play();
 
     $("body").addClass("game-over")
